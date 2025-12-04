@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':library')
+}
+
+mainClassName = 'com.example.service.Main'
+
